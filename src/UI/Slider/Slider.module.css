@@ -27,7 +27,6 @@
     outline: none;
   }
  
-  
   .input::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -36,7 +35,9 @@
     background-color: var(--color-almost-white);
     border-radius: 50%;
     cursor: pointer;
+    margin-top: -10px;
   }
+ 
   .input::-webkit-slider-thumb:hover {
     background-color: var(--color-very-dark-grey);
     border:1px solid var(--color-neon-green);
@@ -81,11 +82,18 @@
     height: 10px;
     background-color: var(--color-neon-green);
   }
- 
-  
-  .input::-webkit-progress-value {
-    
+
+  .input::-webkit-slider-runnable-track {
     width: 10px;
     height: 10px;
+    background-color: var(--color-very-dark-grey);
+    cursor: pointer;
+  }
+  .input:focus::-webkit-slider-runnable-track {
     background-color: var(--color-neon-green);
   }
+ 
+  .input::-webkit-progress-value {
+    background-color: var(--color-neon-green);
+  }
+  
