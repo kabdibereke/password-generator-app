@@ -1,0 +1,55 @@
+.too_weak, .weak, .medium, .strong {
+    display: flex;
+    width: 67px;
+    justify-content: space-between;
+}
+.strong span {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-neon-green);
+    background-color: var(--color-neon-green);
+}
+.too_weak  span, .weak span, .medium span  {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-almost-white);
+    background-color: var(--color-very-dark-grey);
+}
+.too_weak span:first-child {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-red);
+    background-color: var(--color-red);
+}
+
+
+.weak span:first-child {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-orange);
+    background-color: var(--color-orange);
+}
+.weak span:nth-child(2) {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-orange);
+    background-color: var(--color-orange);
+}
+.medium span:first-child {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-yellow);
+    background-color: var(--color-yellow)
+}
+.medium span:nth-child(2) {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-yellow);
+    background-color: var(--color-yellow)
+}
+.medium span:nth-child(3) {
+    width: 10px;
+    height: 28px;
+    border: 2px solid var(--color-yellow);
+    background-color: var(--color-yellow)
+}

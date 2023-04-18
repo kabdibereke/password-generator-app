@@ -1,0 +1,91 @@
+.text__wrapper {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom: 40px;
+   margin-top: 20px;
+}
+.title {
+    font-size: 18px;
+    line-height: 6px;
+    font-weight: 500;
+    color: var(--color-almost-white);
+}
+.value {
+    font-size: 32px;
+    line-height: 6px;
+    font-weight: 500;
+    color: var(--color-neon-green);
+}
+
+.input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background-color: var(--color-very-dark-grey);
+    outline: none;
+  }
+ 
+  
+  .input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-almost-white);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .input::-webkit-slider-thumb:hover {
+    background-color: var(--color-very-dark-grey);
+    border:1px solid var(--color-neon-green);
+  }
+  .input::-webkit-slider-thumb:active {
+    background-color: var(--color-very-dark-grey);
+    border:1px solid var(--color-neon-green);
+  }
+  .input::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-almost-white);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .input::-moz-range-thumb:hover {
+    background-color: var(--color-very-dark-grey);
+    border:1px solid var(--color-neon-green);
+  }
+  .input::-moz-range-thumb:active {
+    background-color: var(--color-very-dark-grey);
+    border:1px solid var(--color-neon-green);
+  }
+  .input::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-almost-white);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .input::-ms-thumb:hover {
+    background-color: var(--color-very-dark-grey);
+    border:1px solid var(--color-neon-green);
+  }
+  .input::-ms-thumb:active {
+    background-color: var(--color-very-dark-grey);
+    border:1px solid var(--color-neon-green);
+  }
+  .input::-moz-range-progress {
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-neon-green);
+  }
+ 
+  
+  .input::-webkit-progress-value {
+    
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-neon-green);
+  }

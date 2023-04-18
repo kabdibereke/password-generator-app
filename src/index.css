@@ -1,0 +1,26 @@
+@import-normalize;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --color-dark-grey:#24232C;
+  --color-grey:#817D92;
+  --color-almost-white:#E6E5EA;
+  --color-very-dark-grey:#18171F;
+  --color-neon-green:#A4FFAF;
+  --color-red:#F64A4A;
+  --color-orange:#FB7C58;
+  --color-yellow:#F8CD65;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 500;
+  background-color: var(--color-very-dark-grey);
+}
+
+
+

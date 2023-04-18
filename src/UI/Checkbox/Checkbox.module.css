@@ -1,0 +1,43 @@
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    color: var(--color-almost-white);
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-almost-white);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.checkbox:hover {
+    border: 2px solid var(--color-neon-green);
+}
+.checkbox_active {
+    transition: 0.3s;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-neon-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+img {
+    transition: 0.3s;
+}
+
+@media(max-width:390px) {
+    .wrapper {
+        font-size: 14px;
+
+    }
+    
+}
